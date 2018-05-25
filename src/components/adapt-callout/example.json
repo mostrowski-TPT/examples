@@ -1,0 +1,18 @@
+{
+    "_id":"c-05",
+    "_parentId":"b-05",
+    "_type":"component",
+    "_component":"callout",
+    "_classes":"",
+    "_layout":"full",
+    "_direction":"right",        
+    "title": "",
+    "displayTitle": "Authors of this module",
+    "body": "Body text goes here in your block. <a class='callout-trigger' data-callout='disclaimer' href='javascript:void(0);'>View Disclaimer</a>",
+    "_callouts": {
+         "disclaimer" : {
+            "title" : "Disclaimer",
+            "body" : "Callout text goes here..."
+        }
+    }
+}

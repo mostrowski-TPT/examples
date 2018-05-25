@@ -1,0 +1,1785 @@
+[
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Introduction",
+        "displayTitle": "",
+        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-10",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "title": "c-10",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-15",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Text",
+        "displayTitle": "Text",
+        "body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-20",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "blank",
+        "_classes": "",
+        "_layout": "right",
+        "title": "c-20"
+	},
+    {
+        "_id": "c-25",
+        "_parentId": "b-15",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Graphic",
+        "displayTitle": "Graphic",
+        "body": "This is the graphic component body. You can introduce your graphic or you may just want to let the graphics do the talking.<br><br>Component can either be single or spanned.",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/full_width.jpg",
+            "small": "course/en/images/full_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-30",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "narrative",
+        "_classes": "",
+        "_layout": "full",
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_hasNavigationInTextArea": false,
+        "title": "Narrative",
+        "displayTitle": "Narrative",
+        "body": "The narrative component lets you scroll through a series of images each with some accompanying text.<br><br>This component is always spanned.",
+        "instruction": "Select the arrows to find out more.",
+        "mobileInstruction": "Select the arrows followed by the plus icon to find out more.",
+        "_items": [
+            {
+                "title": "Narrative item 1",
+                "body": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning to follow, to illustrate real-world application of the learning or to show the impact on people when the learning hasn’t been applied correctly.",
+                "_graphic": {
+                    "src": "course/en/images/single_width_small.jpg",
+                    "alt": "Placeholder graphic."
+                },
+                "strapline": "Narrative item 1"
+			},
+            {
+                "title": "Narrative item 2",
+                "body": "Narratives can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome.",
+                "_graphic": {
+                    "src": "course/en/images/single_width_small.jpg",
+                    "alt": "Placeholder graphic."
+                },
+                "strapline": "Narrative item 2"
+			},
+            {
+                "title": "Narrative item 3",
+                "body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+                "_graphic": {
+                    "src": "course/en/images/single_width_small.jpg",
+                    "alt": "Placeholder graphic."
+                },
+                "strapline": "Narrative item 3"
+			}
+		],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-35",
+        "_parentId": "b-25",
+        "_type": "component",
+        "_component": "hotgraphic",
+        "_classes": "",
+        "_layout": "full",
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_canCycleThroughPagination": false,
+        "_hidePagination": false,
+        "_useGraphicsAsPins": false,
+        "title": "Hot Graphic",
+        "displayTitle": "Hot Graphic",
+        "body": "You can add interactivity to an image by using the <strong>hot graphic</strong>. This component allows you to position icons over an image. When an icon is selected, content associated with its corresponding location is displayed in a window over the image. This component will fall back to a <strong>narrative</strong> when viewed on mobile.<br><br>This component is always spanned.",
+        "instruction": "Select the icons to find out more.",
+        "mobileInstruction": "",
+        "_graphic": {
+            "src": "course/en/images/full_width.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_items": [
+            {
+                "title": "Hot graphic item 1",
+                "body": "This is display text 1 which we have associated with the tablet image on the desktop.",
+                "_graphic": {
+                    "src": "course/en/images/single_width_small.jpg",
+                    "alt": "Placeholder graphic.",
+                    "_classes": ""
+                },
+                "strapline": "Hot graphic item 1",
+                "_classes": "",
+                "_top": 42,
+                "_left": 8.5
+			},
+            {
+                "title": "Hot graphic item 2",
+                "body": "This is display text 2 which we have linked to the smartphone image.",
+                "_graphic": {
+                    "src": "course/en/images/single_width_small.jpg",
+                    "alt": "Placeholder graphic.",
+                    "_classes": ""
+                },
+                "strapline": "Hot graphic item 2",
+                "_classes": "",
+                "_top": 62,
+                "_left": 26.5
+			},
+            {
+                "title": "Hot graphic item 3",
+                "body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
+                "_graphic": {
+                    "src": "course/en/images/single_width_small.jpg",
+                    "alt": "Placeholder graphic.",
+                    "_classes": ""
+                },
+                "strapline": "Hot graphic item 3",
+                "_classes": "",
+                "_top": 62,
+                "_left": 49
+			}
+		],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "_comment": "_setCompletionOn = inview | play | ended",
+        "_setCompletionOn": "play",
+        "_useClosedCaptions": true,
+        "_allowFullScreen": true,
+        "title": "Media",
+        "displayTitle": "Media",
+        "body": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or just let audio to literally do the talking. This is when the media component comes to the fore.<br><br>Component can be either single or spanned.",
+        "instruction": "Select the play button to start the video.",
+        "_media": {
+            "mp4": "course/en/video/c-40.mp4",
+            "poster": "course/en/video/c-40.jpg",
+            "cc": [
+                {
+                    "srclang": "en",
+                    "src": "course/en/video/c-40.vtt"
+				}
+		    ]
+        },
+        "_transcript": {
+            "_inlineTranscript": true,
+            "_externalTranscript": false,
+            "inlineTranscriptButton": "Transcript",
+            "inlineTranscriptCloseButton": "Close Transcript",
+            "inlineTranscriptBody": "Transcript body text should go here",
+            "transcriptLinkButton": "Transcript",
+            "transcriptLink": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-45",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Accordion",
+        "displayTitle": "Accordion",
+        "body": "You can use the <strong>accordion</strong> component to present learners with a series of headings, which once selected, expand to reveal associated text. Select each of the headings below to find out more about how accordions can be used.<br><br>These components can be either single or spanned. If spanned they can also contain a graphic.",
+        "instruction": "Select the headings to find out more.",
+        "_items": [
+            {
+                "title": "Lists",
+                "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list that can stand alone as a piece of content, but which can also be explored in more detail, accordions are a great choice.",
+                "_graphic": {
+                    "src": "course/en/images/accordion_full_width.jpg",
+                    "alt": "Placeholder graphic."
+                }
+			},
+            {
+                "title": "Steps in a process",
+                "body": "This is display text 2 and now we’re discussing how accordions can be great at presenting a process.<br><br>The headings can be used to present the high-level stages in the process, which once selected, provide a more extensive explanation of what happens at that specific point.",
+                "_graphic": {
+                    "src": "course/en/images/accordion_full_width.jpg",
+                    "alt": "Placeholder graphic."
+                }
+			},
+            {
+                "title": "Recaps",
+                "body": "This is display text 3 and we’re now talking about using accordions to provide the learner with a summary.<br><br>Each accordion item corresponds to a key piece of learning presented on the page. When this item is selected a short summary of the learning point is provided.",
+                "_graphic": {
+                    "src": "course/en/images/accordion_full_width.jpg",
+                    "alt": "Placeholder graphic."
+                }
+			}
+		],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-60",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Multiple Choice Question",
+        "displayTitle": "Multiple Choice Question",
+        "body": "In what year was the first recorded instance of a large scale assessment that consists solely of multiple choice questions?",
+        "instruction": "Choose one or more options and select Submit.",
+        "_items": [
+            {
+                "text": "1917",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "1888",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "1953",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "1977",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>",
+            "_incorrect": {
+                "final": "Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-62",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "title": "c-62",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-65",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "gmcq",
+        "_classes": "",
+        "_layout": "full",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Graphical Multiple Choice Question",
+        "displayTitle": "Graphical Multiple Choice Question",
+        "body": "The graphical multiple choice question is an alternative to the standard MCQ, and allows you to ask a question and present the options as graphics (with accompanying captions). This component is always spanned.",
+        "instruction": "Choose option 2 and select Submit.",
+        "_columns": 3,
+        "_items": [
+            {
+                "text": "Option 1",
+                "_shouldBeSelected": false,
+                "_graphic": {
+                    "large": "course/en/images/GMCQ_option.png",
+                    "small": "course/en/images/GMCQ_option.png",
+                    "alt": "Placeholder graphic."
+                }
+			},
+            {
+                "text": "Option 2",
+                "_shouldBeSelected": true,
+                "_graphic": {
+                    "large": "course/en/images/GMCQ_option.png",
+                    "small": "course/en/images/GMCQ_option.png",
+                    "alt": "Placeholder graphic."
+                }
+			},
+            {
+                "text": "Option 3",
+                "_shouldBeSelected": false,
+                "_graphic": {
+                    "large": "course/en/images/GMCQ_option.png",
+                    "small": "course/en/images/GMCQ_option.png",
+                    "alt": "Placeholder graphic."
+                }
+			}
+		],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "Correct feedback text.<br><br>That’s correct. <strong>Option 2</strong> is what we were looking for!",
+            "_incorrect": {
+                "final": "Incorrect feedback text.<br><br>Sorry, that’s not right. In fact <strong>Option 2</strong> is what we were looking for (the clue was in the instruction text!)."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-70",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "textinput",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_allowsAnyCase": true,
+        "_allowsPunctuation": true,
+        "title": "Text Input",
+        "displayTitle": "Text Input",
+        "body": "Can you name one of the three companies that established Adapt as a community led Open Source project?",
+        "instruction": "Input your answer and select Submit.",
+        "_answers": [
+			["City & Guilds Kineo", "Kineo"],
+			["Learning Pool"],
+			["Sponge"]
+		],
+        "_items": [
+            {
+                "prefix": "",
+                "placeholder": "Enter answer here",
+                "suffix": ""
+			}
+		],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "Correct answer feedback.<br><br>That’s correct. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br><em>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</em>",
+            "_partlyCorrect": {
+                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br><em>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</em>"
+            },
+            "_incorrect": {
+                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br><em>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</em>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-72",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "title": "c-72",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-75",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "matching",
+        "_classes": "",
+        "_layout": "full",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "title": "Matching",
+        "displayTitle": "Matching",
+        "body": "Can you identify some of the key facts and figures associated with the Adapt Open Source project?",
+        "instruction": "Choose an option from each dropdown list and select Submit.",
+        "placeholder": "Select an option",
+        "_items": [
+            {
+                "text": "The Adapt Open Source project was formed in:",
+                "_options": [
+                    {
+                        "text": "2008",
+                        "_isCorrect": false
+					},
+                    {
+                        "text": "2010",
+                        "_isCorrect": false
+					},
+                    {
+                        "text": "2013",
+                        "_isCorrect": true
+					},
+                    {
+                        "text": "2015",
+                        "_isCorrect": false
+					}
+				]
+			},
+            {
+                "text": "Adapt adheres to the WCAG 2.0 guidelines to level AA, but when were these published?",
+                "_options": [
+                    {
+                        "text": "2008",
+                        "_isCorrect": true
+					},
+                    {
+                        "text": "2010",
+                        "_isCorrect": false
+					},
+                    {
+                        "text": "2013",
+                        "_isCorrect": false
+					},
+                    {
+                        "text": "2015",
+                        "_isCorrect": false
+					}
+				]
+			},
+            {
+                "text": "Which of these languages would benefit from using the recent addition of Right To Left (RTL) language support within Adapt?",
+                "_options": [
+                    {
+                        "text": "Portuguese",
+                        "_isCorrect": false
+					},
+                    {
+                        "text": "Hebrew",
+                        "_isCorrect": true
+					},
+                    {
+                        "text": "Finnish",
+                        "_isCorrect": false
+					},
+                    {
+                        "text": "Esperanto",
+                        "_isCorrect": false
+					}
+				]
+			}
+		],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "Correct answer feedback.<br><br>Yes, that’s right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>",
+            "_partlyCorrect": {
+                "final": "Partially correct answer feedback.<br><br>That’s partially correct. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
+            },
+            "_incorrect": {
+                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-80",
+        "_parentId": "b-60",
+        "_type": "component",
+        "_component": "slider",
+        "_classes": "",
+        "_layout": "full",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_showNumber": true,
+        "_showScaleIndicator": true,
+        "_scaleStart": 1,
+        "_scaleEnd": 10,
+        "title": "Slider",
+        "displayTitle": "Slider",
+        "body": "Working memory is thought to be responsible for our ability to temporarily hold and manipulate information, but according to a paper by Miller (1956) what ‘magic number’ describes its capacity?",
+        "instruction": "Drag the slider to make your choice and select Submit.",
+        "labelStart": "",
+        "labelEnd": "",
+        "_correctAnswer": "",
+        "_correctRange": {
+            "_bottom": 5,
+            "_top": 9
+        },
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "Correct answer feedback.<br><br>Yes, that’s right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><em>Component facts: The correct answer for a slider component can be an exact number or a range. In this instance we have set the correct answer to a range of 5-9 due to the correct answer being seven plus or minus two. Component is either single or spanned.</em>",
+            "_incorrect": {
+                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><em>Component facts: The correct answer for a slider component can be an exact number or a range. In this instance we have set the correct answer to a range of 5-9 due to the correct answer being seven plus or minus two. Component is either single or spanned.</em>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-90",
+        "_parentId": "b-65",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 4,
+        "title": "To scroll or not to scroll?",
+        "displayTitle": "To scroll or not to scroll?",
+        "body": "Can you identify a few of the benefits that a vertical scrolling approach offers over the traditional back and next approach?",
+        "instruction": "Choose one or more options and select Submit.",
+        "_items": [
+            {
+                "text": "Scrolling is common place on the web and therefore familiar to the learner",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Scrolling reduces the need for unnecessary navigation as pages can be as long (or as short) as they need to be",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Scrolling helps ensure designs are more mobile friendly",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Scrolling means you no longer need to first gain learners attention",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "",
+            "correct": "",
+            "_partlyCorrect": {
+                "final": ""
+            },
+            "_incorrect": {
+                "final": ""
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-95",
+        "_parentId": "b-65",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isOptional": true,
+        "title": "c-95",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-100",
+        "_parentId": "b-75",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 5,
+        "title": "Do you know your plugins?",
+        "displayTitle": "Do you know your plugins?",
+        "body": "Which of the following are types of Adapt plugins?",
+        "instruction": "Choose one or more options and select Submit.",
+        "_items": [
+            {
+                "text": "Component",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Extension",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Schema",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Block",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "App Wrapper",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "",
+            "correct": "",
+            "_partlyCorrect": {
+                "final": ""
+            },
+            "_incorrect": {
+                "final": ""
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-105",
+        "_parentId": "b-75",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isOptional": true,
+        "title": "c-105",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-110",
+        "_parentId": "b-80",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "It’s as simple as A, B, C",
+        "displayTitle": "It’s as simple as A, B, C",
+        "body": "Can you identify the missing word in the following sequence?<br>Article / ..... / Component.",
+        "instruction": "Choose an option and select Submit.",
+        "_items": [
+            {
+                "text": "Block",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Bridge",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Brace",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Base",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Bearing",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "",
+            "correct": "",
+            "_incorrect": {
+                "final": ""
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-115",
+        "_parentId": "b-80",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isOptional": true,
+        "title": "c-115",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-120",
+        "_parentId": "b-85",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 4,
+        "title": "Content objects",
+        "displayTitle": "Content objects",
+        "body": "What would you be referring to when describing a content object within Adapt?",
+        "instruction": "Choose one or more options and select Submit.",
+        "_items": [
+            {
+                "text": "Page",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Menu",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Component",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Course configuration options",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "",
+            "correct": "",
+            "_partlyCorrect": {
+                "final": ""
+            },
+            "_incorrect": {
+                "final": ""
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-125",
+        "_parentId": "b-85",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isOptional": true,
+        "title": "c-95",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-130",
+        "_parentId": "b-90",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Adding titles to icons",
+        "displayTitle": "Adding titles to icons",
+        "body": "Version 2.0 of the framework makes it possible to add titles to the icons shown on the navigation bar. Do you know what JSON file you would need to edit to add a title to an icon?",
+        "instruction": "Choose an option and select Submit.",
+        "_items": [
+            {
+                "text": "course.json",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "config.json",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "contentObjects.json",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "components.json",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "",
+            "correct": "",
+            "_incorrect": {
+                "final": ""
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-135",
+        "_parentId": "b-90",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isOptional": true,
+        "title": "c-95",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-140",
+        "_parentId": "b-95",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 4,
+        "title": "Control the scroll",
+        "displayTitle": "Control the scroll",
+        "body": "The <strong>Trickle</strong> extension makes it possible to control how the learner scrolls down the page, but what elements of a page can it be applied to?",
+        "instruction": "Choose an option and select Submit.",
+        "_items": [
+            {
+                "text": "Article",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Block",
+                "_shouldBeSelected": true
+			},
+            {
+                "text": "Component",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Other extensions",
+                "_shouldBeSelected": false
+			}
+		],
+        "_feedback": {
+            "title": "",
+            "correct": "",
+            "_partlyCorrect": {
+                "final": ""
+            },
+            "_incorrect": {
+                "final": ""
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-145",
+        "_parentId": "b-95",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isOptional": true,
+        "title": "c-95",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/single_width.jpg",
+            "small": "course/en/images/single_width.jpg",
+            "alt": "Placeholder graphic.",
+            "attribution": ""
+        }
+	},
+    {
+        "_id": "c-147",
+        "_parentId": "b-100",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Scoring bands",
+        "displayTitle": "",
+        "body": "The new Assessment Results component allows you to specify the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 75% or above and provided four scoring bands, each of which has some accompanying feedback. The four scoring bands were:<br><br><ul><li>0-49% (fail)</li><li>50-74% (fail)</li><li>75-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
+        "_canReset": true,
+        "_isResetOnRevisit": "hard",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-150",
+        "_parentId": "b-105",
+        "_type": "component",
+        "_component": "assessmentResults",
+        "_classes": "",
+        "_layout": "full",
+        "_isVisibleBeforeCompletion": false,
+        "_assessmentId": "a-15",
+        "title": "Results",
+        "displayTitle": "Results",
+        "body": "",
+        "instruction": "",
+        "_retry": {
+            "button": "Retry Assessment",
+            "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+            "feedback": ""
+        },
+        "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+        "_completionBody": "{{{feedback}}}",
+        "_bands": [
+            {
+                "_score": 0,
+                "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You didn’t do so well in the Adapt assessment demo, but don’t worry. There’s lots of information about the Adapt basics on our site. We’d also suggest you pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
+                "_allowRetry": true
+			},
+            {
+                "_score": 50,
+                "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You already know some of the Adapt basics but please explore our site for more information. Also pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
+                "_allowRetry": true
+			},
+            {
+                "_score": 75,
+                "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already pretty knowledgeable about Adapt so, if you haven’t already, please consider sharing your expertise on the Adapt community forums.",
+                "_allowRetry": true
+			},
+            {
+                "_score": 100,
+                "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already a black belt in Adapt! If you haven’t already, please consider sharing your expertise on the Adapt community forums.",
+                "_allowRetry": false
+			}
+		],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "c-155",
+        "_parentId": "b-110",
+        "_type": "component",
+        "_component": "reveal",
+        "_classes": "",
+        "_layout": "full",
+        "_direction": "left",
+        "title": "",
+        "displayTitle": "adapt-contrib-reveal",
+        "body": "<p>Reveal component can switch between pair of elements in left, right, top, and bottom. Elements can contain text and graphics that have to be matched to its size. Plugin homepage: <a href='https://github.com/LearningPool/adapt-contrib-reveal'>https://github.com/LearningPool/adapt-contrib-reveal</a></p><br>Currently works in authoring tool 0.4.1 and framework 2.5.5.",
+        "first": {
+            "src": "course/en/images/single_width_small.jpg",
+            "alt": "First item",
+            "title": "First item",
+            "body": "Here is the first item body text",
+            "_maxCharacters": 10,
+            "moreText": "More"
+        },
+        "second": {
+            "src": "course/en/images/single_width_small.jpg",
+            "alt": "Second item",
+            "title": "Second item",
+            "body": "Here is the second item body text",
+            "_maxCharacters": 50,
+            "moreText": "More"
+        },
+        "control": {
+            "showText": "Show",
+            "hideText": "Hide"
+        }
+},
+    {
+        "_id": "c-160",
+        "_parentId": "b-115",
+        "_layout": "full",
+        "_type": "component",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "body": "<p>Flipcard component can present set of flipcards with image that reveal content when clicked. They can be set to switch only one at time or allow to switch all of the elements when clicked. <br>The most recent version of flipcard component (Commit from Mar 18, 2016) works properly only through authoring tool (current ver. 0.4.1). It is not compatible with Adapt framework 2.2.5 and 3.0. <br><br>If you want to use it in framework, please download this version: <a href='https://github.com/NayanKhedkar/adapt-contrib-flipcard/tree/issue/12'>https://github.com/NayanKhedkar/adapt-contrib-flipcard/tree/issue/12</a><br><br>Video demonstrations:<br> <a href='https://www.youtube.com/watch?v=J_1znGWQgEE'>https://www.youtube.com/watch?v=J_1znGWQgEE</a><br><a href='https://www.youtube.com/watch?v=vpDT-pFEJek'>https://www.youtube.com/watch?v=vpDT-pFEJek</a><br><br>Plugin homepage: <a href='https://github.com/NayanKhedkar/adapt-contrib-flipcard'>https://github.com/NayanKhedkar/adapt-contrib-flipcard</a></p>",
+        "displayTitle": "adapt-contrib-flipcard",
+        "title": "adapt-contrib-flipcard",
+        "_isVisible": true,
+        "_isHidden": false,
+        "_isAvailable": true,
+        "_isOptional": false,
+        "_classes": "",
+        "_component": "flipcard",
+        "instruction": "",
+        "_flipType": "singleFlip",
+        "_flipTime": 400,
+        "_items": [
+            {
+                "frontImage": {
+                    "alt": "",
+                    "src": "course/en/images/24acc4e42f7131bb57565335d6fe5f3dd3f6d71d.jpg"
+                },
+                "backTitle": "Title",
+                "backBody": "<p>Flipcard body</p>"
+      },
+            {
+                "frontImage": {
+                    "alt": "",
+                    "src": "course/en/images/e83887ae7323c845e4b5cf23eb4685f51106f882.png"
+                },
+                "backTitle": "Title",
+                "backBody": "<p>Flipcard body</p>"
+      },
+            {
+                "frontImage": {
+                    "alt": "",
+                    "src": "course/en/images/e13fdcdc781c008180842d5624446b9fc7d6ab8e.png"
+                },
+                "backTitle": "Title",
+                "backBody": "<p>Flipcard body</p>"
+      },
+            {
+                "frontImage": {
+                    "alt": "",
+                    "src": "course/en/images/e1b4080dfbfe9252ade68b50a569f36440341bec.jpg"
+                },
+                "backTitle": "Title",
+                "backBody": "<p>Flipcard body</p>"
+      }
+    ]
+  },
+    {
+        "_id": "c-165",
+        "_parentId": "b-120",
+        "_type": "component",
+        "_component": "dragndrop",
+        "_classes": "",
+        "_layout": "full",
+        "_attempts": 1,
+        "_questionWeight": 100,
+        "title": "adapt-dragndrop",
+        "displayTitle": "adapt-dragndrop",
+        "body": "<p>This component lets you pick text items and match tem with answers by dragging them from the item pool, some items may be set as dummy ones.<br><br><b>The component is not currently responsive! (Needs checking)</b><br><br>Plugin homepage:<a href='https://github.com/danielstorey/adapt-dragndrop/blob/master/example.json'>https://github.com/danielstorey/adapt-dragndrop/blob/master/example.json</a></p>",
+        "instruction": "",
+        "_items": [
+            {
+                "text": "What colour is The Hulk?",
+                "accepted": "Green"
+        },
+            {
+                "text": "What colour is Spiderman?",
+                "accepted": ["Red", "Blue"]
+        },
+            {
+                "text": "What colour is Wolverine?",
+                "accepted": "Yellow"
+        }
+
+    ],
+        "dummyAnswers": ["Black", "Brown"]
+},
+    {
+        "_id": "c-170",
+        "_parentId": "b-125",
+        "_type": "component",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "body": "",
+        "displayTitle": "",
+        "title": "adapt-backgroundScroll",
+        "_isVisible": true,
+        "_isHidden": false,
+        "_isAvailable": true,
+        "_isOptional": false,
+        "_classes": "",
+        "_component": "backgroundScroll",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "instruction": "",
+        "_items": [
+            {
+                "title": "",
+                "body": "<p>This is <b>adapt-backgroundScroll</b> component. Scroll down to progress through it.</p>",
+                "image": "course/en/images/2b7d2de8115e013e8e1192de084cb64086ab3fff.png"
+      },
+            {
+                "title": "",
+                "body": "<p>It displays content in consecutive scrolls across changing backgrounds<br>Various effects can be applied depending on CSS styling</p><br>It may cause trickle extension and page progress extension issues, should be used with these with special caution",
+                "image": "course/en/images/551f032b99eb485ac2a69ca9aa7d26ec439ec4b7.png"
+      },
+            {
+                "title": "",
+                "body": "<p>Plugin homepage: <a href='https://github.com/danielstorey/adapt-backgroundScroll'>https://github.com/danielstorey/adapt-backgroundScroll</a> </p>",
+                "image": "course/en/images/0cb43dfaae57c155769080ca8eb2d0bf8558b5b5.png"
+      }
+    ]
+  },
+    {
+        "_id": "c-175",
+        "_parentId": "b-130",
+        "_type": "component",
+        "_component": "dragAndDrop",
+        "_classes": "",
+        "_layout": "full",
+        "_attempts": 2,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "title": "adapt-dragAndDrop",
+        "displayTitle": "adapt-dragAndDrop",
+        "body": "<p>This drag and drop component can use images instead of text.<br><br><b>Does not work on Adapt authoring tool (current ver. 0.4.1). Has to be installed manually via Adapt framework (not through command line). Probably it's not currently responsive (has to be checked for that).</b><br><br>It has non-standard path for homepage: <a href='https://github.com/BATraining/adapt-dragAndDrop-public'>https://github.com/BATraining/adapt-dragAndDrop-public</a> and probably it will be changed in future. For this reason it cannot be also downloaded through framework commands.</p>",
+        "instruction": "",
+        "_defaultMaxWidth": 120,
+        "_defaultHeight": 120,
+        "_draggableItems": [
+            {
+                "id": "drag-01",
+                "body": "<img src='course/en/images/GMCQ_option.png'>"
+    },
+            {
+                "id": "drag-02",
+                "body": "<img src='course/en/images/GMCQ_option.png'>"
+    },
+            {
+                "id": "drag-03",
+                "body": "<img src='course/en/images/GMCQ_option.png'>"
+    }
+  ],
+        "_droppableItems": [
+            {
+                "id": "drop-01",
+                "body": "First",
+                "correctItemId": "drag-01"
+    },
+            {
+                "id": "drop-02",
+                "body": "Second",
+                "correctItemId": "drag-02"
+    },
+            {
+                "id": "drop-03",
+                "body": "Three",
+                "correctItemId": "drag-03"
+    }
+  ],
+        "_feedback": {
+            "correct": "Congratulations, this is the correct feedback.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question correctly."
+            },
+            "body": "This should show for final incorrect and final partially correct, but it shouldn't for correct because correct has its own body attribute defined or not blank.."
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+},
+    {
+        "_id": "c-180",
+        "_parentId": "b-135",
+        "_type": "component",
+        "_component": "piechart",
+        "_classes": "",
+        "_layout": "full",
+        "title": "adapt-piechart",
+        "body": "<p>Generates piechart based on given values <br><br>Does not work on Adapt authoring tool (current ver. 0.4.1).<br><br>Homepage: <a href='https://github.com/MartinSandberg/adapt-piechart-master'>https://github.com/MartinSandberg/adapt-piechart-master</a></p>",
+        "maxsize": "500",
+        "legendsize": "25",
+        "items": [
+            {
+                "name": "Value1",
+                "colour": "#336633",
+                "value": "33"
+		},
+            {
+                "name": "Value2",
+                "colour": "#669966",
+                "value": "66"
+		},
+            {
+                "name": "Value3",
+                "colour": "#99DD99",
+                "value": "99"
+		},
+            {
+                "name": "Value4",
+                "colour": "#DDEEDD",
+                "value": "39"
+		},
+            {
+                "name": "Value5",
+                "colour": "#EEFFEE",
+                "value": "9"
+		}
+	]
+    },
+    {
+        "_id": "c-185",
+        "_parentId": "b-140",
+        "_type": "component",
+        "_component": "expose",
+        "_classes": "",
+        "_layout": "full",
+        "title": "adapt-expose",
+        "displayTitle": "adapt-expose",
+        "body": "",
+        "instruction": "<p>Click each item to remove the front cover and display the content underneath. Clicking again will restore the item to its original state.<br><br>Shrink animation type can be only implemented through the framework<br><br>Previously functioned as adapt-reveal which is old repository that should not be used.<br><br>Plugin homepage: <a href='https://github.com/danielstorey/adapt-expose/blob/master/example.json'>https://github.com/danielstorey/adapt-expose/blob/master/example.json</a></p>",
+        "_columns": 3,
+        "_animationType": "shrink",
+        "_items": [
+            {
+                "front": "How versatile am I?",
+                "back": {
+                    "title": "Titles are optional",
+                    "body": "You can have text or images as content and can pick from a range of different animations"
+                }
+			},
+            {
+                "front": "?",
+                "back": {
+                    "title": "Default Settings",
+                    "body": "By default the front cover will display a question mark and will fade out when clicked"
+                }
+			},
+            {
+                "front": "Animations",
+                "back": {
+                    "title": "This is the \"shrink\" animation",
+                    "body": "You can also choose various slide and flip animations. Click the link below to find out more"
+                }
+			}
+
+		]
+	},
+    {
+        "_id": "c-190",
+        "_parentId": "b-145",
+        "_type": "component",
+        "_component": "quicknav",
+        "_classes": "",
+        "_layout": "full",
+        "title": "adapt-quicknav",
+        "displayTitle": "adapt-quicknav",
+        "body": "<p>This is navigation bar in a form of component. In can navigate between different menus and pages. Usually placed at the end of a page.<br><br>Homepage:<a href='https://github.com/cgkineo/adapt-quicknav/blob/master/example.json'>https://github.com/cgkineo/adapt-quicknav/blob/master/example.json</a></p>",
+        "instruction": "",
+        "_comment": "allPages = loop sequentially through all pages in course",
+        "_comment": "siblings = loop sequentially through all pages in current parent object",
+        "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+        "_loopStyle": "none",
+        "_buttons": {
+            "_previous": {
+                "_isEnabled": true,
+                "_order": 1,
+                "_classes": "",
+                "_iconClass": "",
+                "_alignIconRight": false,
+                "text": "< Previous",
+                "ariaLabel": "Previous Page",
+                "_showTooltip": true,
+                "tooltip": "{{displayTitle}}",
+                "_customRouteId": ""
+            },
+            "_root": {
+                "_isEnabled": true,
+                "_order": 1,
+                "_classes": "",
+                "_iconClass": "",
+                "_alignIconRight": false,
+                "text": "Go to main menu",
+                "ariaLabel": "Got to Main menu",
+                "_showTooltip": true,
+                "tooltip": "{{displayTitle}}",
+                "_customRouteId": ""
+            },
+            "_up": {
+                "_isEnabled": true,
+                "_order": 1,
+                "_classes": "",
+                "_iconClass": "",
+                "_alignIconRight": false,
+                "text": "Back to menu",
+                "ariaLabel": "Back to menu",
+                "_showTooltip": true,
+                "tooltip": "{{displayTitle}}",
+                "_customRouteId": "co-10"
+            },
+            "_next": {
+                "_isEnabled": true,
+                "_order": 1,
+                "_classes": "",
+                "_iconClass": "",
+                "_alignIconRight": true,
+                "text": "Next >",
+                "ariaLabel": "Next Page",
+                "_showTooltip": true,
+                "tooltip": "{{displayTitle}}",
+                "_customRouteId": ""
+            },
+            "_sibling": {
+                "_isEnabled": true,
+                "_order": 1,
+                "_classes": "",
+                "_iconClass": "",
+                "_alignIconRight": false,
+                "text": "{{inc index}}",
+                "ariaLabel": "Page {{inc index}}",
+                "_showTooltip": true,
+                "tooltip": "{{displayTitle}}",
+                "_customRouteId": ""
+            },
+            "_close": {
+                "_isEnabled": true,
+                "_order": 1,
+                "_classes": "",
+                "_iconClass": "",
+                "_alignIconRight": false,
+                "text": "Close",
+                "ariaLabel": "Close window",
+                "_showTooltip": false,
+                "tooltip": "Close window",
+                "_customRouteId": ""
+            }
+        }
+    },
+    {
+        "_id": "c-195",
+        "_parentId": "b-150",
+        "_type": "component",
+        "_component": "callout",
+        "_classes": "",
+        "_layout": "full",
+        "_direction": "right",
+        "title": "",
+        "displayTitle": "adapt-callout",
+        "body": "Callout component displays callout after clicking upon specific html body element, eg. button, graphic or text.<br><br>Body text goes here in your block. <a class='callout-trigger' data-callout='disclaimer' href='javascript:void(0);'>View Disclaimer</a>.<br><br>Currently not working in authoring tool.<br><br>Plugin homepage: <a href='https://github.com/KevCJones/adapt-callout'>https://github.com/KevCJones/adapt-callout</a>.",
+        "_callouts": {
+            "disclaimer": {
+                "title": "Disclaimer",
+                "body": "Callout text goes here..."
+            }
+        }
+},
+    {
+        "_id": "c-200",
+        "_parentId": "b-155",
+        "_type": "component",
+        "_component": "hotgrid",
+        "_classes": "",
+        "_layout": "full",
+        "title": "adapt-hotgrid",
+        "displayTitle": "Adapt Hotgrid",
+        "body": "Hotgrid is a presentation component which displays a set of images in a grid layout. <br> When a learner selects an image, a pop-up is displayed that consists of text with an image.<br>Hotgrid automatically switches to 2 columns in mobile mode for the best user experience however this can be overridden in the css. Version 2.1.0 contains two changes that could potentially break if users update from previous versions. The first, the introduction of font-size: 0; on the item container div, may cause item titles not to appear. Applying a font size to the titles will resolve this issue. The second, changing clickable elements from 'a' to 'button', may cause display errors if the 'a' tag has been directly targeted in the JS or LESS files. To resolve, target the 'button' tag instead.<br><br>Plugin homepage: <a href='https://github.com/cgkineo/adapt-hotgrid'>https://github.com/cgkineo/adapt-hotgrid</a>.",
+        "instruction": "",
+        "_columns": 3,
+        "_items": [
+            {
+                "title": "Grid Item 1",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "_graphic": {
+                    "src": "course/en/images/Slide1.jpg",
+                    "srcHover": "course/en/images/Slide2.jpg",
+                    "srcVisited": "course/en/images/Slide3.jpg",
+                    "alt": "alt text here test",
+                    "title": "Item Title 1"
+                },
+                "_itemGraphic": {
+                    "src": "course/en/images/Slide4.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 2",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "_graphic": {
+                    "src": "course/en/images/Slide1.jpg",
+                    "srcHover": "course/en/images/Slide2.jpg",
+                    "srcVisited": "course/en/images/Slide3.jpg",
+                    "alt": "",
+                    "title": "Item Title 2"
+                },
+                "_itemGraphic": {
+                    "src": "course/en/images/Slide4.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 3",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "_graphic": {
+                    "src": "course/en/images/Slide1.jpg",
+                    "srcHover": "course/en/images/Slide2.jpg",
+                    "srcVisited": "course/en/images/Slide3.jpg",
+                    "alt": "",
+                    "title": "Item Title 3"
+                },
+                "_itemGraphic": {
+                    "src": "course/en/images/Slide4.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 4",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "_graphic": {
+                    "src": "course/en/images/Slide1.jpg",
+                    "srcHover": "course/en/images/Slide2.jpg",
+                    "srcVisited": "course/en/images/Slide3.jpg",
+                    "alt": "",
+                    "title": "Item Title 4"
+                },
+                "_itemGraphic": {
+                    "src": "course/en/images/Slide4.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 5",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "_graphic": {
+                    "src": "course/en/images/Slide1.jpg",
+                    "srcHover": "course/en/images/Slide2.jpg",
+                    "srcVisited": "course/en/images/Slide3.jpg",
+                    "alt": "",
+                    "title": "Item Title 5"
+                },
+                "_itemGraphic": {
+                    "src": "course/en/images/Slide4.jpg",
+                    "alt": "alt text"
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-205",
+        "_parentId": "b-160",
+        "_type": "component",
+        "_component": "stacklist",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Stacklist",
+        "displayTitle": "Stacklist",
+        "body": "Does not work on Adapt authoring tool (current ver. 0.4.1).<br><br>Plugin homepage: <a href='https://github.com/danielstorey/adapt-stacklist'>https://github.com/danielstorey/adapt-stacklist</a>.",
+        "_button": {
+            "startText": "Let's get started",
+            "continueText": "Continue"
+        },
+        "_items": [
+            {
+                "body": "This component is useful for making boring text lists that little bit more interactive.",
+                "next": "Show me more!"
+        },
+            {
+                "body": "List items slide in from alternating sides.",
+                "next": "... and you can modify this text!"
+        },
+            {
+                "body": "There is no limit to the number of items you can have.",
+                "next": "It's localisation friendly"
+        },
+            {
+                "body": "Although if you have too many it will be a bit boring.",
+                "next": "... but you can customize it"
+        },
+            {
+                "body": "At least now you get the gist of how this works.",
+                "next": "I get it!"
+        },
+            {
+                "body": "That's pretty much it.",
+                "next": "Step 5"
+        }
+    ]
+},
+    {
+        "_id": "c-210",
+        "_parentId": "b-165",
+        "_type": "component",
+        "_component": "tabs",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Tabs",
+        "displayTitle": "adapt-tabs",
+        "body": "The component displays a vertically or horizontally stacked list of heading tabs. Each heading is associated with a hidden content panel. Clicking a heading toggles the visibility of its content panel. The first content panel is visible by default. Content panels may contain text and/or an image.<br><br>Plugin homepage: <a href='https://github.com/cgkineo/adapt-tabs'>https://github.com/cgkineo/adapt-tabs</a>",
+        "instruction": "Select the tabs to find out more.",
+        "_tabLayout": "left",
+        "_items": [
+            {
+                "tabTitle": "Tab Title 1",
+                "title": "Tab item 1 title",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                "_graphic": {
+                    "alt": "alt text",
+                    "src": "course/en/images/Slide1.jpg"
+                }
+        },
+            {
+                "tabTitle": "Tab Title 2",
+                "title": "Tab item 2 title",
+                "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                "_graphic": {
+                    "alt": "alt text",
+                    "src": "course/en/images/Slide1.jpg"
+                }
+        },
+            {
+                "tabTitle": "Tab Title 3",
+                "title": "Tab item 3 title",
+                "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                "_graphic": {
+                    "alt": "alt text",
+                    "src": "course/en/images/Slide1.jpg"
+                }
+        },
+            {
+                "tabTitle": "Tab Title 4",
+                "title": "Tab item 4 title",
+                "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                "_graphic": {
+                    "alt": "alt text",
+                    "src": "course/en/images/Slide1.jpg"
+                }
+        }
+    ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+},
+    {
+        "_id": "c-215",
+        "_parentId": "b-170",
+        "_type": "component",
+        "_component": "flipper",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Flipper",
+        "displayTitle": "adapt-flipper",
+        "body": "A Flipper displays lists of items one at a time. When the learner clicks on the component it flips to the next item. The component completes when the last item is displayed but the learner can continue to interact with the component as it loops back to the beginning.<br><br>Plugin homepage <a href='https://github.com/danielstorey/adapt-flipper'>https://github.com/danielstorey/adapt-flipper</a>",
+        "width": 320,
+        "_items": [
+            {
+                "_graphic": {
+                    "src": "course/en/images/Slide1.jpg",
+                    "alt": ""
+                }
+			},
+            {
+                "title": "Welcome",
+                "body": "To the Flipper component!",
+                "instruction": "Next »"
+			},
+            {
+                "title": "You can currently have...",
+                "body": "...up to twelve items.",
+                "instruction": "Next »"
+			},
+            {
+                "title": "Only 12??",
+                "body": "This should be more than plenty. If not, you should probably consider using a different component or splitting your content up.",
+                "instruction": "Next »"
+			},
+            {
+                "title": "To infinity...",
+                "body": "...and beyond. When you reach the end you can simply start again.",
+                "instruction": "Next »"
+			},
+            {
+                "title": "Usage",
+                "body": "Whilst you can include graphics, this element is useful for making text lists a bit more interesting.",
+                "instruction": "Next »"
+			},
+            {
+                "title": "That's it",
+                "body": "Happy flipping!",
+                "instruction": "Complete ✔"
+			}
+		]
+	},
+    {
+        "_id": "c-220",
+        "_parentId": "b-175",
+"_type":"component",
+    "_component":"responsiveIframe",
+    "_classes":"",
+    "_layout":"left",
+    "title": "",
+    "displayTitle": "adapt-contrib-responsiveIframe",
+    "body": "This component renders html content in a responsive frame.<br><br><br><b>Has problem with display on some browsers<b/><br><br>Content below is embedded html file.<br><br>Plugin homepage: <a href='https://github.com/LearningPool/adapt-contrib-responsiveIframe'>https://github.com/LearningPool/adapt-contrib-responsiveIframe</a>",
+    "instruction": "",
+    "_source": "course/en/images/example.html",
+    "_scrolling": "no",
+    "_width": {
+        "_small" : 300,
+        "_medium" : 500,
+        "_large" : 750
+    },
+    "_height": {
+        "_small" : 250,
+        "_medium" : 350,
+        "_large" : 550
+    }
+
+    },
+{
+        "_id": "c-225",
+        "_parentId": "b-175",
+"_type":"component",
+    "_component":"responsiveIframe",
+    "_classes":"",
+    "_layout":"right",
+    "title": "",
+    "displayTitle": "adapt-contrib-responsiveIframe",
+    "body": "This component renders html content in a responsive frame.<br><b>Has problem with display on some browsers<b/><br>Content below is embedded html file.<br><br>Plugin homepage: <a href='https://github.com/LearningPool/adapt-contrib-responsiveIframe'>https://github.com/LearningPool/adapt-contrib-responsiveIframe</a>",
+    "instruction": "",
+    "_source": "course/en/images/example2.html",
+    "_scrolling": "no",
+    "_width": {
+        "_small" : 300,
+        "_medium" : 300,
+        "_large" : 300
+    },
+    "_height": {
+        "_small" : 350,
+        "_medium" : 350,
+        "_large" : 350
+    }
+
+    }
+    
+    
+    
+]
