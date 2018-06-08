@@ -16,7 +16,8 @@ body{background:black;}
 <body>
     <div id="1"><canvas id="c"></canvas></div>
     <div id="2">
-    <button onclick="alert('SPEED UP!'); setInterval(draw,1);">SPEED UP</button>
+        <button onclick="myfunction();">Random<br>characters</button><br>
+    <button onclick="myfunctiontwo();">Latin<br>characters</button>
     </div>
 
     
@@ -61,6 +62,32 @@ function draw(){
 }
   
 }
+    
+    
+function myfunction(){
+
+for (i=0; i<chinese.length; i++){
+   var temp = chinese[i];
+    var character = temp.charCodeAt(0);
+    var newcharacter = String.fromCharCode(Math.floor((Math.random() * 4000) + 1));
+    chinese[i] = newcharacter;
+
+}
+    
+}
+    
+    
+ function myfunctiontwo(){
+     for (i=0; i<chinese.length; i++){
+      var temp = chinese[i];
+    var character = temp.charCodeAt(0);
+    var newcharacter = String.fromCharCode(Math.floor((Math.random() * 50) + 65));
+    chinese[i] = newcharacter;  
+ }
+    }
+
+
+    
 setInterval(draw,33);
     
     
