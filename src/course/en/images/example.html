@@ -18,6 +18,8 @@ body{background:black;}
     <div id="2">
         <button onclick="myfunction();">Random<br>characters</button><br>
     <button onclick="myfunctiontwo();">Latin<br>characters</button>
+    <br>
+    <button onclick="myfunctionthree();">Asian<br>characters</button>
     </div>
 
     
@@ -56,7 +58,7 @@ function draw(){
     
     if(drops[i]*font_size>c.height && Math.random() >0.975)
       drops[i]=0;
-    
+     
     //increment y coordinate
     drops[i]++;
 }
@@ -80,13 +82,24 @@ for (i=0; i<chinese.length; i++){
  function myfunctiontwo(){
      for (i=0; i<chinese.length; i++){
       var temp = chinese[i];
+        
     var character = temp.charCodeAt(0);
     var newcharacter = String.fromCharCode(Math.floor((Math.random() * 50) + 65));
-    chinese[i] = newcharacter;  
+    chinese[i] = newcharacter; 
+         
  }
     }
 
-
+function myfunctionthree(){
+     for (i=0; i<chinese.length; i++){
+      var temp = chinese[i];
+        
+    var character = temp.charCodeAt(0);
+    var newcharacter = String.fromCharCode(Math.floor((Math.random() * 23967) + 33));
+    chinese[i] = newcharacter; 
+         
+ }
+    }
     
 setInterval(draw,33);
     
